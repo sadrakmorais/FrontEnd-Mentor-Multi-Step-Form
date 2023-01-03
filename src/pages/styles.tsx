@@ -20,7 +20,7 @@ export const MainContainer = styled.div`
   border-radius: 1rem;
   padding: 1rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   gap: 1rem;
 `;
 export const WrapperSteps = styled.section`
@@ -29,8 +29,8 @@ export const WrapperSteps = styled.section`
   background-image: url("/assets/images/bg-sidebar-desktop.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
-  height: 80vh;
+  width: 230px;
+  height: 70vh;
 `;
 export const WrapperForm = styled.section`
   background: red;

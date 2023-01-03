@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Steps } from "../components/stepsMenu";
 import * as S from "./styles";
 
 export default function Home() {
@@ -12,7 +13,9 @@ export default function Home() {
       </Head>
       <S.ContainerGlobal>
         <S.MainContainer>
-          <S.WrapperSteps>OI</S.WrapperSteps>
+          <S.WrapperSteps>
+            <Steps />
+          </S.WrapperSteps>
           <S.WrapperForm>Olá</S.WrapperForm>
         </S.MainContainer>
       </S.ContainerGlobal>
