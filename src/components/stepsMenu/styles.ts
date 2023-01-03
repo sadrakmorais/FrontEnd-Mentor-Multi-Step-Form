@@ -8,6 +8,8 @@ export const Wrapper = styled.nav`
   display: flex;
   gap: 1.5rem;
   flex-direction: column;
+  margin-top: 1rem;
+
 `;
 export const Step = styled.button<StepProps>`
   ${({active}) => css`
@@ -26,8 +28,10 @@ export const Step = styled.button<StepProps>`
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #fff;
-    color: #fff;
+    background: ${active ? 'hsl(206, 94%, 87%)' : 'transparent'};
+    border: 1px solid hsl(206, 94%, 87%);
+    color: ${active ? 'hsl(213, 96%, 18%)' : 'hsl(206, 94%, 87%)'};
+    transition:  0.2s all ease;
   }
   div{
     span{
