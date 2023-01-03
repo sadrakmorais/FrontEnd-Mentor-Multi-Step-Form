@@ -1,6 +1,7 @@
-import Head from "next/head";
-import { Steps } from "../components/stepsMenu";
-import * as S from "./styles";
+import Head from 'next/head';
+import { Form } from '../components/form';
+import { Steps } from '../components/stepsMenu';
+import * as S from './styles';
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
           <S.WrapperSteps>
             <Steps />
           </S.WrapperSteps>
-          <S.WrapperForm>Olá</S.WrapperForm>
+          <S.WrapperForm>
+            <Form />
+          </S.WrapperForm>
         </S.MainContainer>
       </S.ContainerGlobal>
     </>

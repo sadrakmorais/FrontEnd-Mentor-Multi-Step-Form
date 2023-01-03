@@ -1,6 +1,6 @@
-import { url } from "inspector";
-import styled from "styled-components";
-import BGDESKTOP from "/assets/images/bg-sidebar-desktop.svg";
+import { url } from 'inspector';
+import styled from 'styled-components';
+import BGDESKTOP from '/assets/images/bg-sidebar-desktop.svg';
 
 export const ContainerGlobal = styled.div`
   width: 100%;
@@ -26,14 +26,13 @@ export const MainContainer = styled.div`
 export const WrapperSteps = styled.section`
   border-radius: 1rem;
   padding: 1rem;
-  background-image: url("/assets/images/bg-sidebar-desktop.svg");
+  background-image: url('/assets/images/bg-sidebar-desktop.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 230px;
   height: 70vh;
 `;
 export const WrapperForm = styled.section`
-  background: red;
   border-radius: 1rem;
   padding: 1rem;
 `;
